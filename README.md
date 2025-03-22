@@ -8,4 +8,4 @@ It's a [rare bug](https://github.com/evilfactory/LuaCsForBarotrauma/issues/245) 
 - Call GhostDetector.Check() from inside your harmony patches
 
 GhostDetector.Check() returns true if it detects a ghost, so you can prevent execution of dead code  
-It'll also print to console that ghost is detected, if you don't want that just change the file or replace GhostDetector.OnDetect Action
+It'll also prints to the console when a ghost is detected, if you don't want that just change the file or replace GhostDetector.OnDetect Action
