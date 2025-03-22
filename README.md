@@ -3,7 +3,7 @@ Source code for [barotrauma mod](https://steamcommunity.com/sharedfiles/filedeta
 It's a [rare bug](https://github.com/evilfactory/LuaCsForBarotrauma/issues/245) that seems to appear only in c# assembly mods and is very hard to detect
 
 ### To use GhostDetector in your mod:
-- Copy-paste GhostDetector class into your mod
+- Copy-paste [GhostDetector class](https://github.com/SomeRandomNoobKekeke/Barotrauma-Ghost-Detector/blob/main/CSharp/Client/GhostDetector.cs) into your mod
 - Call GhostDetector.Activate()
 - Call GhostDetector.Check() from inside your harmony patches
 
